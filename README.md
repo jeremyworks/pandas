@@ -1,10 +1,25 @@
 # jeremyworks/pandas
-[Jupyter](https://jupyter.org/) notebooks, samples, and resources for processing data in [pandas](https://pandas.pydata.org/docs/)
+This codebase helps answer some of there questions:
+* **_How do I quickly load data from a URL?_**  
+* **_What does my JSON or XML data look like?_**  
+* **_What are the fields and data ranges?_**  
+* **_How complete is the data?_**  
 
-Code samples can easily be run if you have [Docker](https://www.docker.com/) installed.
+
+This repository includes [Jupyter](https://jupyter.org/) notebooks, samples, and resources for processing data in [pandas](https://pandas.pydata.org/docs/).
+Code samples can easily be run if you have [Docker](https://www.docker.com/) installed or through Binder.
 
 
-# Parsing JSON
+# Binder (no docker)
+Binder allows you to run jupyter notebooks through a URL is the source code for the notebook is
+publicly visible on github. This is a great way to quickly check out notebooks and run quick
+commands, but you _can't actually save any changes_ and the resources might be limited.
+
+* Parsing JSON - [JSON Binder Link](https://mybinder.org/v2/gh/jeremyworks/pandas/master?filepath=json%2FJson-to-Pandas.ipynb)
+
+
+# Local Docker 
+## Parsing JSON
 Pull data in JSON format into pandas DataFrames for analysis.
 
 ```bash

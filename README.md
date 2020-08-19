@@ -15,8 +15,8 @@ Binder allows you to run jupyter notebooks through a URL is the source code for 
 publicly visible on github. This is a great way to quickly check out notebooks and run quick
 commands, but you _can't actually save any changes_ and the resources might be limited.
 
-* Parsing JSON data from URL - [JSON Binder Link](https://mybinder.org/v2/gh/jeremyworks/pandas/master?filepath=json%2FJson-URL-to-Pandas.ipynb)
-* Parsing JSON w/caching - [JSON Binder Link](https://mybinder.org/v2/gh/jeremyworks/pandas/master?filepath=json%2FJson-to-Pandas.ipynb)
+* Parsing JSON data from URL - [JSON from URL Binder Link](https://mybinder.org/v2/gh/jeremyworks/pandas/master?filepath=json%2FJson-URL-to-Pandas.ipynb)
+* Parsing JSON w/caching - [JSON w/caching Binder Link](https://mybinder.org/v2/gh/jeremyworks/pandas/master?filepath=json%2FJson-to-Pandas.ipynb)
 
 # Local Docker 
 ## Parsing JSON

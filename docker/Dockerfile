@@ -6,4 +6,5 @@ LABEL maintainer="jeremyworks.com <code@jeremyworks.com>"
 USER $NB_UID
 
 RUN conda install --quiet --yes \
-    'genson=1.1.0'
+    'genson=1.1.0' \
+    'xmltodict=0.12.0'
